@@ -1,0 +1,13 @@
+{
+  "name": "sistema-cegonha",
+  "version": "1.0.0",
+  "description": "Sistema de Apoio para o Atendimento às Gestantes e Puérperas (AI-DLC)",
+  "scripts": {
+    "test": "npm --prefix backend test",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build",
+    "seed": "npm --prefix backend run seed",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "start": "node backend/dist/server.js"
+  }
+}
